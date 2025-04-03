@@ -38,7 +38,8 @@ async function main() {
   const tokenId = BigInt(2); // 전송할 토큰 ID (예: 2)
   const toAddress = "0x553aa022a56eeb380a8835dd80ed507ffa23063b" as `0x${string}`; // 수신자 주소로 교체
   // 도현 주소 0x553aa022a56eeb380a8835dd80ed507ffa23063b
-
+  // 형국 주소 0xca9d0aaf3de175d6b354e340651a6aeac8bf1e2a
+  // 이슬 주소 0xA080f25C40D5AEc8139f4984EdbbD8b8429e5dEb
 
   // 소유자 확인
   const owner = await client.readContract({
